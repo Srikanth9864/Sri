@@ -1,0 +1,13 @@
+03/22 08:52:50 EVENT  :.....api_reader: api request SESSION03/22,08:52:50,EVENT,:.....api_reader:,api,request,SESSION
+03/22 08:52:50 EVENT  :.....api_reader: api request SENDER03/22,08:52:50,EVENT,:.....api_reader:,api,request,SENDER
+03/22 08:52:52 EVENT  :..........qosmgr_response: RESVRESP from qosmgr, reason=0, qoshandle=8b671d003/22,08:52:52,EVENT,:..........qosmgr_response:,RESVRESP,from,"qosmgr,","reason=0,",qoshandle=8b671d0
+03/22 08:53:07 EVENT  :..mailslot_sitter: process received signal SIGALRM03/22,08:53:07,EVENT,:..mailslot_sitter:,process,received,signal,SIGALRM
+03/22 08:53:22 EVENT  :..mailslot_sitter: process received signal SIGALRM03/22,08:53:22,EVENT,:..mailslot_sitter:,process,received,signal,SIGALRM
+03/22 08:53:38 EVENT  :..mailslot_sitter: process received signal SIGALRM03/22,08:53:38,EVENT,:..mailslot_sitter:,process,received,signal,SIGALRM
+03/22 08:53:53 EVENT  :..mailslot_sitter: process received signal SIGALRM03/22,08:53:53,EVENT,:..mailslot_sitter:,process,received,signal,SIGALRM
+03/22 08:54:09 EVENT  :..mailslot_sitter: process received signal SIGALRM03/22,08:54:09,EVENT,:..mailslot_sitter:,process,received,signal,SIGALRM
+03/22 08:54:24 EVENT  :..mailslot_sitter: process received signal SIGALRM03/22,08:54:24,EVENT,:..mailslot_sitter:,process,received,signal,SIGALRM
+03/22 08:54:35 EVENT  :.....api_reader: api request SENDER_WITHDRAW03/22,08:54:35,EVENT,:.....api_reader:,api,request,SENDER_WITHDRAW
+03/22 08:54:35 EVENT  :..........qosmgr_response: DELRESP from qosmgr, reason=0, qoshandle=003/22,08:54:35,EVENT,:..........qosmgr_response:,DELRESP,from,"qosmgr,","reason=0,",qoshandle=0
+03/22 08:54:35 EVENT  :.....api_reader: api request CLOSE03/22,08:54:35,EVENT,:.....api_reader:,api,request,CLOSE
+03/22 08:54:53 EVENT  :..mailslot_sitter: process received signal SIGTERM03/22,08:54:53,EVENT,:..mailslot_sitter:,process,received,signal,SIGTERM

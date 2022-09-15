@@ -1,0 +1,37 @@
+list Comprehensions
+
+1. Square Numbers in the list. Using List 4_Comprehensions
+
+2. List of even numbers between range 1-50
+
+3. Returns a list names starting with vowels in the given string
+names = ['laura', 'steve', 'bill', 'james', 'bob', 'greig', 'scott', 'alex', 'ive']"
+
+4. Filtering all the languages which starts with 'p'
+languages = ['Python', 'Java', 'Perl', 'PHP', 'Python', 'JS', 'C++', 'JS', 'Python', 'Ruby']
+
+5. Names starting with consonants in list 
+names = ['apple', 'google', 'yahoo', 'gmail', 'flipkart', 'instagram', 'microsoft']"
+
+6. Filtering out those names which are less than 6 characters
+names = ['apple', 'google', 'yahoo', 'gmail', 'flipkart', 'instagram', 'microsoft']
+
+7. Raise to the power of list index
+a = [1, 2, 3, 4, 5]
+
+8. Build a list of tuples with string and its length pair
+names = ['apple', 'google', 'yahoo', 'facebook', 'yelp', 'flipkart', 'gmail', 'instagram', 'microsoft']
+
+9. Build a list with only with even length string
+names = ['apple', 'google', 'yahoo', 'facebook', 'yelp', 'flipkart', 'gmail', 'instagram', 'microsoft']
+
+10. List comprehension to sum the factorial of numbers from 1-5
+
+11. Reverse the item of a list if the item is of odd length string
+names = ['apple', 'google', 'yahoo', 'facebook', 'yelp', 'flipkart', 'gmail', 'instagram', 'microsoft']
+
+12. Reverse the item of a list if the item is of odd length string otherwise keep the item as is!.
+names = ['apple', 'google', 'yahoo', 'facebook', 'yelp', 'flipkart', 'gmail', 'instagram', 'microsoft']
+
+13. Reverse the string if the string is of odd length, otherwise keep it as is.
+names = ['apple', 'google', 'yahoo', 'facebook', 'yelp', 'flipkart', 'gmail', 'instagram', 'microsoft']

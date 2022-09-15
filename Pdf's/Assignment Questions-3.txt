@@ -1,0 +1,77 @@
+1. "Building a dict of word and length pair
+   words = "This is a bunch of words"
+
+2. Flipping keys and values of the dictionary using dict comprehension
+   d = {'a': 1, 'b': 2, 'c': 3}
+
+3. Counting the number of each character in a String
+   my_string = 'guido van rossum
+
+4. Counting the number of each character in a String
+   sentence = ""hello world welcome to python hello hi world welcome to python"""
+
+5. Dictionary of character and ascii value pairs
+   s = 'abcABC'
+
+6. Creating Dictionary of city and population pairs using Dict Comprehension
+
+cities = ['Tokyo',
+          'Delhi',
+          'Shanghai',
+          'Sao Paulo',
+          'Mumbai'
+          ]
+
+population = ['38,001,000',
+              '25,703,168',
+              '23,740,778',
+              '21,066,245',
+              '21,042,538'
+              ]
+
+7. Create a dictionary of dialcode and country from the following list
+
+dial_codes = [
+    (86, 'China'),
+    (91, 'India'),
+    (1, 'United States'),
+    (62, 'Indonesia'),
+    (55, 'Brazil'),
+    (92, 'Pakistan'),
+    (880, 'Bangladesh'),
+    (234, 'Nigeria'),
+    (7, 'Russia'),
+    (81, 'Japan')
+    ]
+
+8. 
+    1
+   12
+  123
+ 1234
+12345
+
+9. 
+       1
+      12
+     123
+    1234
+   12345
+
+10. 
+
+* 
+* * 
+* 
+* * * 
+* 
+* * * * 
+* 
+* * * * *
+
+11.
+
+1 2 3 *
+1 2 * 4
+1 * 3 4
+* 2 3 4

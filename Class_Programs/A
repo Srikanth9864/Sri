@@ -1,0 +1,144 @@
+
+
+string = "hello how are u"
+res = " "
+for char in string.split():
+    if string.count(char) > 1:
+        res = res + "-"
+    else:
+        res = res + char
+
+print(res)
+
+list1 = [1,2,3,4,3,2,2,4]
+list_ = [ ]
+for item in list1:
+    if item not in list_:
+        list_.append(item)
+print(list_)
+
+
+def fibonacci(number,a,b):
+    
+    for _ in range(number):
+        yield a
+        next_number = a + b
+        a = b
+        b = next_number
+
+f= fibonacci(10,1,5)
+for item in f:
+    print(item)
+
+l1 = [1, 2, 3]
+l2 = ['a', 'b', 'c']
+
+result = [''.join((str(x),y))  for x in l1   for y in l2 ]
+print(result)
+
+
+def testgen(index):
+    weekdays = ['sun','mon','tue','wed']
+    yield weekdays[index]
+    yield weekdays[index+1]
+day = testgen(0)
+print(next(day),next(day))
+
+import email
+from logging import exception
+import random
+from tkinter.tix import Select
+from webbrowser import Chrome  
+list = [1,2,3,4,5]
+random.shuffle(list)
+print(list)
+
+import random
+l =[1,2,3,4,5]
+random.shuffle(l)
+print(l)
+
+start = 2
+end = 150
+n = 6
+r = []
+for i in range(n):
+    r.append(random.randint(start,end))
+print(r)
+
+from selenium.webdriver.support.select import Select
+
+class Selenium_wrapper:
+
+    def __init__(self, driver):
+        self.driver = driver
+
+    def click_element(self, locator):
+        self.driver.find_element(*locator).click()
+
+    def enter_text(self, locator, *, value):
+        self.driver.find_element(*locator).clear()
+        self.driver.find_element(*locator).send_keys(value)
+
+    def select_item(self, locator, *, item):
+        element = self.driver.find_element(*locator)
+        s = Select(element)
+        if isinstance(item, str):
+            s.select_by_visible_text(item)
+        if isinstance(item, int):
+            s.select_by_index(item)
+        else :
+            raise exception
+
+
+
+from pytest import fixture
+from webdriver_manager.chrome import ChromeDriverManager
+from Config import Config
+from selenium.webdriver import Chrome
+from time import sleep
+
+@fixture(scope = "function")
+def setup():
+    print("Running the Setup")
+    driver = Chrome(Config.DRIVER_PATH)
+    driver.get(Config.URL)
+    driver.maximize_window()
+    sleep(5)
+    yield driver
+    print("Closing the browser")
+    driver.close()
+
+from excel_lib_pom import read_locators
+
+class HomePage(Selenium_wrapper):
+    def __init__(self, driver):
+        super().__init__(driver)
+
+    locators = read_locators("homepage")
+
+    def homepage_click_login(self):
+        element = HomePage.locators["lnk_login"]
+        self.click_element(element)
+
+    def homepage_click_register(self):
+        element = HomePage.locators["lnk_register"]
+        self.click_element(element)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,30 @@
+1. Printing the line with line numbers
+
+2. Reading the file in reversed order
+
+3. Finding the length of each line in the text file
+
+4. Extracting IP addresses from log file.
+
+5. Counting number of occurrences of ip addresses in the log file.
+
+6. Extracting Messages from sample.log
+
+7. Counting Number of INFO, WARN, TRACE Messages.
+
+8. Reading Countries from football.txt
+
+9. Counting total number of words present in a file
+
+10. Finding the line no of a particular word in a file.
+
+11. Printing 4 to 7th lines
+
+12. WAP to check if the file has even number of charcaters
+
+13. WAP to print only the lines which are starting with vowels
+
+14. WAP to count all the lowercase and uppercase letters in the file
+
+15. WAP to create a dictionary with vowels and their count pair.
+

@@ -1,0 +1,8 @@
+Python: strings,lists,decorators,functions,generators,tuples,sets,comprehensions,File Handling,Exception Handling,
+Selenium : Xpath,Handling Multiple Elements,Handing List Box,Handling Popups,Handling Frames,Handling Windows and Tabs,pytest,
+		framework,class methods,class decorators
+
+API : difference b/w Json and xml,server,servlets,API programming,Automation on Api,postman,basic operations,
+
+Project
+           

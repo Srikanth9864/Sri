@@ -1,0 +1,21 @@
+Name,WHO Region,Case
+Global
+United States of America,Americas
+India,South-East Asc lia
+Brazil,Americas
+France,Europe,
+Germany,Europe
+The United Kingdom,Europe,
+Russian Federation,Europe,
+Republic of Korea,Western Pacific
+Italy,Europe,
+Turkey,Europe
+Spain,Europe
+Viet Nam,Western Pacific
+Argentina,Americas
+Japan,Western Pacific
+Netherlands,Europe,
+Australia,Western Pacific,
+Iran (Islamic Republic of),Eastern Mediterranean
+Colombia,Americas
+Indonesia,South-East Asia

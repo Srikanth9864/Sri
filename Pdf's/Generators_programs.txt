@@ -1,0 +1,21 @@
+1. generate square numbers of given list
+l = [1, 2, 3, 4]
+
+2. generate only the strings with odd length in the given list
+
+names = ["bob", "steve", "alex", "maya", "john"]
+
+3. generate a tuple of only numeric values in the given list
+
+items = ["flipkart", 2021, "gmail", 1.2, [1, 2, 3], 2+3j, True]
+
+4. generate a list -> if individual datatype, reverse it else keep it as it is
+items = ["flipkart", 2021, "gmail", 1.2, [1, 2, 3], 2+3j, True]
+
+5. write a generator function to yield even numbers in the range 1 - 50
+
+6. write a generator function to yield the names starting with vowels in the given list
+
+names = ["john", "eve", "bob", "emma", "ana"]
+
+7. write a generator function and expression to yield length of each line in a file only if the line is not empty
